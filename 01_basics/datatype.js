@@ -17,6 +17,15 @@ let state;
 
 //object
 
-console.log(typeof"Anima");
-console.log(typeof null);//object
-console.log(typeof undefined);//undefined
+// console.log(typeof"Anima");
+// console.log(typeof null);//object
+// console.log(typeof undefined);//undefined
+
+//summary
+ //datatype
+ // -primitive->7types ->String,Number,Boolean,NULL,Undefined,Symbol,BigInt
+ //reference type(non primitive)->Array,Objects,Functions
+ //symbol->unique value
+ let Id = Symbol("123")
+ let userId = Symbol("123")
+ console.log(Id == userId);
